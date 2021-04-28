@@ -2,23 +2,57 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Thumbspanel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbs panel</title>
+    <style media="screen">
+      div {
+        border:5px solid black;
+        background-color: green;
+        margin: 5px;
+        padding 5px;
+      }
+      #content {
+        border: 5px solid black;
+        background-color: green;
+        margin: auto;
+        width: 100%
+      }
+      .linksBox {
+        background-color: green;
+      }
+      a {}
+      a:hover{}
+      a:visited{}
+        body {
+          background-color: black;
+        }
+        @media only screen and (max-width: 600px) {
+          body {
+            background-color: lightblue;
+          }
+        }
+    </style>
   </head>
   <body>
-    <h1>Thumbspanel</h1>
-    <p><a href=http://172.21.3.4:5000/tutd?thumb=up>up</a></p>
+    <div id="content">
+    <div class="linksBox">
+      <h1>Thumbs Panel</h1>
+    </div>
+    <div class="linksBox">
+      <p><a href="http://172.21.3.4:5000/tutd?thumb=up">up</a></p>
+      <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle</a></p>
+      <p><a href="http://172.21.3.4:5000/tutd?thumb=down">down</a></p>
+      <p><a href="http://172.21.3.4:5000/tutd?thumb=oops">undo</a></p>
+    </div>
 
-    <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle</a></p>
-
-    <p><a href="http://172.21.3.4:5000/tutd?thumb=down">down</a></p>
-
-    <p><a href="http://172.21.3.4:5000/color?hex=5CB7A9">color</a></p>
-
-    <p><a href="http://172.21.3.4:5000/perc?amount=50">percentage</a></p>
-
-    <p><a href="http://172.21.3.4:5000/say?phrase=hello">phrase</a></p>
-
-    <p><a href="http://172.21.3.4:5000/bgm">bgm</a></p>
-
-  </body>
+    <div class="linksBox">
+      <p><a href="http://172.21.3.4:5000/color?hex=5CB7A9">color</a></p>
+      <p><a href="http://172.21.3.4:5000/perc?amount=50">percentage</a></p>
+      <p><a href="http://172.21.3.4:5000/say?phrase=hello">phrase</a></p>
+      <p><a href="http://172.21.3.4:5000/bgm">bgm</a></p>
+    </div>
+    <div class="linksBox">
+      <p><a href="game.html">Game</a></p> 
+  </div>
+</body>
 </html>
