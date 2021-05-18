@@ -1,58 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thumbs panel</title>
-    <style media="screen">
-      div {
-        border:5px solid black;
-        background-color: green;
-        margin: 5px;
-        padding 5px;
-      }
-      #content {
-        border: 5px solid black;
-        background-color: green;
-        margin: auto;
-        width: 100%
-      }
-      .linksBox {
-        background-color: green;
-      }
-      a {}
-      a:hover{}
-      a:visited{}
-        body {
-          background-color: black;
-        }
-        @media only screen and (max-width: 600px) {
-          body {
-            background-color: lightblue;
-          }
-        }
-    </style>
-  </head>
-  <body>
-    <div id="content">
-    <div class="linksBox">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thumbs panel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="content">
+    <div id="headerBox">
       <h1>Thumbs Panel</h1>
+      <p>id = 'paraBox'</p>
     </div>
+
     <div class="linksBox">
       <p><a href="http://172.21.3.4:5000/tutd?thumb=up">up</a></p>
       <p><a href="http://172.21.3.4:5000/tutd?thumb=wiggle">wiggle</a></p>
       <p><a href="http://172.21.3.4:5000/tutd?thumb=down">down</a></p>
       <p><a href="http://172.21.3.4:5000/tutd?thumb=oops">undo</a></p>
+      <p><a href="http://172.21.3.4:5000/wawd" >what are we doing?</a></p>
     </div>
+    <div class="textBox">
+      <img src="img/legendOfZeldaLogo.svg.png" alt="The Legend of Zelda Logo." />
+      <p>This is the Legend of Zelda Logo. This logo is found in every single zelda game. There are many zelda games with this logo. This logo is one of the most iconic logos in gaming.</p>
+      <img src="img/majorasMask.png" alt="The Majora's Mask" />
+      <p>This mask is known as Majora's Mask. This mask is on the cover of The Legend of Zelda: Majora's Mask. This game is one of the darkest games in the zelda franchise. This Mask is worn by Majora.</p>
+      <img src="img/masterSword.jpg" alt="The Master Sword." />
+      <p>This sword is known as the Master Sword. This sword is wielded by Link in almost every zelda game. The Master Sword is one of the most iconic weapons in gaming history.</p>
 
+    </div>
     <div class="linksBox">
       <p><a href="http://172.21.3.4:5000/color?hex=5CB7A9">color</a></p>
       <p><a href="http://172.21.3.4:5000/perc?amount=50">percentage</a></p>
       <p><a href="http://172.21.3.4:5000/say?phrase=hello">phrase</a></p>
       <p><a href="http://172.21.3.4:5000/bgm">bgm</a></p>
     </div>
+
     <div class="linksBox">
-      <p><a href="game.html">Game</a></p> 
-  </div>
+      <p><a href="game.html">Game</a></p>
+    </div>
 </body>
+
 </html>
+
+
+
+
+<script type="text/javascript">
+var box = ['sword', 'pickaxe', 'shovel', 'cure for cancer']
+var rando = Math.random() * 4
+rando = Math.floor(rando)
+document.getElementById('paraBox'),innerHTML = box [rando]
+</script>
