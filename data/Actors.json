@@ -5,5 +5,5 @@ null,
 {"id":3,"battlerName":"Actor3_8","characterIndex":7,"characterName":"Actor3","classId":3,"equips":[3,0,2,3,4],"faceIndex":7,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Marsha","nickname":"","note":"","profile":""},
 {"id":4,"battlerName":"Actor2_7","characterIndex":6,"characterName":"Actor2","classId":4,"equips":[4,0,2,3,4],"faceIndex":6,"faceName":"Actor2","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lucius","nickname":"","note":"","profile":""},
 {"id":5,"battlerName":"Gerald","characterIndex":0,"characterName":"Nature","classId":5,"equips":[6,0,0,0,0],"faceIndex":0,"faceName":"Nature","traits":[{"code":43,"dataId":15,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Gerald","nickname":"","note":"","profile":""},
-{"id":6,"battlerName":"Mario","characterIndex":0,"characterName":"Mario","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Mario","traits":[],"initialLevel":1,"maxLevel":99,"name":"Mario","nickname":"","note":"","profile":""}
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"Harold","nickname":"","note":"","profile":""}
 ]
